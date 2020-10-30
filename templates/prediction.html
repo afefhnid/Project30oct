@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Boule de cristal</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles/index.css" />
+  </head>
+  <body style="background-image: url('/static/images/euro.jpg');">
+    <div class="container">
+      <div class="paytext">
+        <h4>Commentaire laissé par votre utilisateur</h4>
+      </div>
+
+      <form action="/reponse" method="POST">
+        <label for="ccnum">Coller le commentaire ici</label>
+        <input type="text" name="input_text" />
+        <input type="submit" value="Let's Go" />
+      </form>
+    </div>
+  </body>
+</html>

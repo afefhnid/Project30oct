@@ -1,0 +1,8 @@
+Flask
+sklearn
+stop-words
+nltk
+requests
+pandas
+flask_bootstrap
+unidecode

@@ -1,7 +1,0 @@
-Flask
-sklearn
-nltk
-requests
-pandas
-flask_bootstrap
-unidecode

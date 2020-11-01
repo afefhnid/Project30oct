@@ -28,13 +28,10 @@ La route "/prediction" Apartir d'un ensemble de donnes on pourra prédir si on r
 
 ## Docker
 ## build
- docker build -t fraud .
+ docker build -t fraud . //ici j'ai lors de la création de l'image il prrend bcp temps : peut etre probléme de reseau mais tous fonctionne bien 
 ## container
 
  docker run -dit --name fraud_container -p 80:80 fraud
 ## pull
 
-  docker pull nujabness/fraud:fakenews
-  
-## repository
-  https://hub.docker.com/repository/docker/afefhnid/fraud
+ 

@@ -26,12 +26,15 @@ La route "/prediction" Apartir d'un ensemble de donnes on pourra prédir si on r
   r.json()
 
 
-Docker
-build
+## Docker
+## build
  docker build -t fraud .
-container
+## container
+
  docker run -dit --name fraud_container -p 80:80 fraud
-pull
+## pull
+
   docker pull nujabness/fraud:fakenews
-repository
+  
+## repository
   https://hub.docker.com/repository/docker/afefhnid/fraud

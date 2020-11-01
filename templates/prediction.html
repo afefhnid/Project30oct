@@ -8,12 +8,22 @@
   <body style="background-image: url('/static/images/euro.jpg');">
     <div class="container">
       <div class="paytext">
-        <h4>Commentaire laissé par votre utilisateur</h4>
+        <h4>Estimer si vous seraz frauder</h4>
       </div>
 
       <form action="/reponse" method="POST">
-        <label for="ccnum">Coller le commentaire ici</label>
-        <input type="text" name="input_text" />
+        <label for="ccnum">Le Montant de la transaction</label>
+        <input type="text" name="input_amt" />
+        <label for="ccnum">QUEL EST VOTRE SEXE</label>
+        <input type="text" name="input_gender" />
+        <label for="ccnum">Département</label>
+        <input type="text" name="input_state" />
+        <label for="ccnum">Estimation de la population</label>
+        <input type="text" name="input_city_pop" />
+        <label for="ccnum">La Longeure de votre numéro de Card</label>
+        <input type="text" name="input_numCardLength" />
+        <label for="ccnum">Votre Age</label>
+        <input type="text" name="input_age" />
         <input type="submit" value="Let's Go" />
       </form>
     </div>
